@@ -1,0 +1,10 @@
+Package: sprung
+Version: 0.4.0
+Section: games
+Priority: optional
+Architecture: i386
+Depends: mono-runtime, libsdl-gfx1.2-4, libsdl-mixer1.2, libsdl-ttf2.0-0, libgdiplus
+Maintainer: Aiden Nibali <dismaldenizen@gmail.com>
+Description: A bouncy little game
+ Sprung is a simple yet addictive vertical
+ platform game.

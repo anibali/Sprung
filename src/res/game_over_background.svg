@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="game_over_background.svg"
+   inkscape:export-filename="/home/aiden/Dropbox/Projects/Sprung/res/images/game_over_background.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="90.058135"
+     inkscape:cy="275.11399"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-452.36218)">
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       id="rect2820"
+       width="800"
+       height="600"
+       x="0"
+       y="452.36218"
+       rx="0"
+       ry="0" />
+    <g
+       id="g2825">
+      <path
+         transform="translate(0,452.36218)"
+         id="path2823"
+         d="M 332.84358 600.07089 C 352.43396 586.92062 365.34834 568.31473 366.69977 544.30609 C 374.32301 408.8767 104.49749 475.662 113.36548 587.25912 C 113.71778 591.69253 114.23057 595.96095 114.89624 600.06868 "
+         style="fill:none;stroke:#2c2c2c;stroke-width:10.92459679000000072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         transform="translate(0,452.36218)"
+         id="path2825"
+         d="M 14.462298 288.69941 C 73.434462 358.03786 266.27676 334.84999 266.03851 240.51622 C 265.68861 101.98405 32.21668 237.00687 32.50468 351.03305 C 32.792256 464.8901 274.6822 424.24932 297.69502 339.02159 C 325.65155 235.48484 75.654394 296.55733 59.271377 413.34466 C 37.238895 570.40442 297.42801 560.96762 349.03081 457.10705 C 390.31766 374.00931 127.81371 350.29362 93.026334 479.12833 C 77.490296 536.66592 103.34364 576.87732 144.51345 600.04472 "
+         style="fill:none;stroke:#2c2c2c;stroke-width:10.92459679000000072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:68.62611389px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#999999;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andale Mono Bold"
+       x="189.93304"
+       y="573.16449"
+       id="text2921"><tspan
+         sodipodi:role="line"
+         id="tspan2923"
+         x="189.93304"
+         y="573.16449"
+         style="font-weight:bold;fill:#999999;-inkscape-font-specification:Andale Mono Bold">Game over</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="229.99707"
+       y="946.09686"
+       id="text2925"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2927"
+         x="229.99707"
+         y="946.09686">Press Space to try again</tspan></text>
+  </g>
+</svg>

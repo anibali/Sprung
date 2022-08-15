@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sprung
+Comment=A bouncy little game
+Exec=sprung
+Icon=sprung
+Categories=Game;

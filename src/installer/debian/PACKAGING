@@ -1,0 +1,6 @@
+Creating the Sprung Debian Package
+----------------------------------
+
+1. Build Sprung as per README
+2. Copy the contents of "bin/Release" into ./sprung_#.#.#_i386/usr/share/games/sprung
+3. Run `dpkg-deb --build sprung_#.#.#_i386`

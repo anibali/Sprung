@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B2FDCA5-5ECA-4851-A1A9-90D0BA43138E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sprung</RootNamespace>
+    <AssemblyName>sprung</AssemblyName>
+    <ApplicationIcon>sprung.ico</ApplicationIcon>
+    <newfilesearch>OnLoadAutoInsert</newfilesearch>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="SGSDK.NET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bf3f7f1d850fd13d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\SGSDK.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <!--    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+-->
+    <Compile Include="src\InGameState.cs" />
+    <Compile Include="src\MenuState.cs" />
+    <Compile Include="src\Platform.cs" />
+    <Compile Include="src\Program.cs" />
+    <None Include="COPYING" />
+    <Compile Include="src\Helper.cs" />
+    <Compile Include="src\GameObject.cs" />
+    <Compile Include="src\Player.cs" />
+    <Compile Include="src\Main.cs" />
+    <None Include="Sprung.userprefs" />
+    <None Include="build.sh" />
+    <None Include="sprung.ico" />
+    <Compile Include="src\MenuButton.cs" />
+    <Compile Include="src\Button.cs" />
+    <Compile Include="src\HelpState.cs" />
+    <Compile Include="src\Star.cs" />
+    <Compile Include="src\StarParticle.cs" />
+    <Compile Include="src\GameOverState.cs" />
+    <None Include="lib\SGSDK.NET.dll" />
+    <None Include="lib\SGSDK.NET.XML" />
+    <Compile Include="src\CreditsState.cs" />
+    <None Include="Sprung.csproj.user" />
+    <Compile Include="src\Resources.cs" />
+    <Compile Include="src\GameState.cs" />
+    <None Include="lib\libSGSDK.so" />
+    <None Include="res\fonts\arial.ttf" />
+    <None Include="res\fonts\cour.ttf" />
+    <None Include="res\images\SplashBack.png" />
+    <None Include="res\images\background.png" />
+    <None Include="res\images\credits_background.png" />
+    <None Include="res\images\exhaust.png" />
+    <None Include="res\images\game_over_background.png" />
+    <None Include="res\images\help_background.png" />
+    <None Include="res\images\loader_empty.png" />
+    <None Include="res\images\loader_full.png" />
+    <None Include="res\images\menu_background.png" />
+    <None Include="res\images\menu_button.png" />
+    <None Include="res\images\platform.png" />
+    <None Include="res\images\platform_burning.png" />
+    <None Include="res\images\platform_frosty.png" />
+    <None Include="res\images\platform_frozen.png" />
+    <None Include="res\images\platform_full.png" />
+    <None Include="res\images\platform_full_frosty.png" />
+    <None Include="res\images\platform_full_frozen.png" />
+    <None Include="res\images\platform_hyper.png" />
+    <None Include="res\images\player_left.png" />
+    <None Include="res\images\player_right.png" />
+    <None Include="res\images\star.png" />
+    <None Include="res\images\star_particle.png" />
+    <None Include="res\sounds\SwinGameStart.ogg" />
+    <None Include="res\sounds\colorando_noise_sound_nation.ogg" />
+    <None Include="res\sounds\star_chime.ogg" />
+    <None Include="res\sounds\watership_down.ogg" />
+    <None Include="src\res\background.svg" />
+    <None Include="src\res\credits_background.svg" />
+    <None Include="src\res\exhaust.svg" />
+    <None Include="src\res\game_over_background.svg" />
+    <None Include="src\res\help_background.svg" />
+    <None Include="src\res\index.gif" />
+    <None Include="src\res\menu_background.svg" />
+    <None Include="src\res\menu_button.svg" />
+    <None Include="src\res\mono_logo.png" />
+    <None Include="src\res\platform.svg" />
+    <None Include="src\res\platform_burning.svg" />
+    <None Include="src\res\platform_frosty.svg" />
+    <None Include="src\res\platform_frozen.svg" />
+    <None Include="src\res\platform_full.svg" />
+    <None Include="src\res\platform_full_frosty.svg" />
+    <None Include="src\res\platform_full_frozen.svg" />
+    <None Include="src\res\platform_hyper.svg" />
+    <None Include="src\res\player.svg" />
+    <None Include="src\res\sdl_logo.png" />
+    <None Include="src\res\splash_background.svg" />
+    <None Include="src\res\star.svg" />
+    <None Include="src\res\swingame_logo.png" />
+    <None Include="lib\libSGSDK.dylib" />
+    <None Include="obj\Sprung.csproj.FilesWrittenAbsolute.txt" />
+    <None Include="obj\Debug\sprung.exe.mdb" />
+    <Compile Include="src\Hyperlink.cs" />
+    <Compile Include="src\Snowflake.cs" />
+    <None Include="Sprung.suo" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\Sprung.csproj.FileListAbsolute.txt" />
+    <None Include="out.log" />
+    <None Include="res\images\snowflake.png" />
+    <None Include="src\res\snowflake.svg" />
+    <Compile Include="src\Cursor.cs" />
+    <None Include="res\fonts\DejaVuSans.ttf" />
+    <None Include="res\images\cursor_hand.png" />
+    <None Include="res\images\cursor_normal.png" />
+    <None Include="res\images\icon.png" />
+    <None Include="src\installer\sprung.nsi" />
+    <None Include="src\res\icon.svg" />
+    <Compile Include="src\Hiscores.cs" />
+    <Compile Include="src\ScoreboardState.cs" />
+    <None Include="res\images\scoreboard_background.png" />
+    <None Include="res\sounds\boing.ogg" />
+    <None Include="src\res\scoreboard_background.svg" />
+    <Compile Include="src\Fan.cs" />
+    <None Include="README" />
+    <None Include="res\images\fan.png" />
+    <None Include="res\images\platform_hyper_raised.png" />
+    <None Include="res\images\platform_spiky.png" />
+    <None Include="src\installer\debian\PACKAGING" />
+    <None Include="src\installer\debian\sprung_0.4.0_i386\DEBIAN\control" />
+    <None Include="src\installer\debian\sprung_0.4.0_i386\usr\games\sprung" />
+    <None Include="src\installer\debian\sprung_0.4.0_i386\usr\share\applications\sprung.desktop" />
+    <None Include="src\installer\debian\sprung_0.4.0_i386\usr\share\icons\hicolor\32x32\apps\sprung.png" />
+    <None Include="src\installer\debian\sprung_0.4.0_i386\usr\share\icons\hicolor\scalable\apps\sprung.svg" />
+    <None Include="src\installer\windows\PACKAGING" />
+    <None Include="src\installer\windows\sprung.nsi" />
+    <None Include="src\res\fan.svg" />
+    <None Include="src\res\platform_hyper_raised.svg" />
+    <None Include="src\res\platform_spiky.svg" />
+    <None Include="src\res\player_ski.svg" />
+    <Compile Include="src\TransitionState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resources Include="res\%2A%2A\%2A" />
+    <Libraries Include="lib\%2A%2A\%2A.dll" />
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <Copy Condition=" '$(OS)' == 'Windows_NT' " SourceFiles="@(Resources)" DestinationFiles="@(Resources-&gt;'$(TargetDir)%(RecursiveDir)%(Filename)%(Extension)')" ContinueOnError="false" />
+    <Copy Condition=" '$(OS)' == 'Windows_NT' " SourceFiles="@(Libraries)" DestinationFiles="@(Libraries-&gt;'$(TargetDir)%(RecursiveDir)%(Filename)%(Extension)')" ContinueOnError="false" />
+  </Target>
+</Project>

@@ -1,0 +1,18 @@
+Building on Linux
+-----------------
+
+Requirements:
+mono-xbuild libsdl-gfx1.2-4 libsdl-mixer1.2 libsdl-ttf2.0-0 libgdiplus
+
+1. Run `./build.sh -r Sprung.sln`
+2. That's it! The built game is in ./bin/Release
+4. See ./src/installer/debian/PACKAGING for info about creating a Debian package
+
+Building on Windows
+-------------------
+
+1. Open 'Sprung.sln' with Microsoft Visual C# 2008 Express Edition
+2. Build the project (shortcut key is F6)
+3. That's it! The built game is in ./bin/Release
+4. See ./src/installer/windows/PACKAGING for info about creating an installer
+

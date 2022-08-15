@@ -1,0 +1,6 @@
+Creating the Sprung Windows installer
+-------------------------------------
+
+1. Build Sprung as per README
+2. Copy the contents of "bin/Release" into ./Sprung
+3. Compile "sprung.nsi" with NSIS

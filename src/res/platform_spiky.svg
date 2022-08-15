@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="16"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   inkscape:export-filename="/home/aiden/Dropbox/Projects/Sprung/res/images/platform_burning.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="platform_burning.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3594">
+      <stop
+         style="stop-color:#00aa44;stop-opacity:1;"
+         offset="0"
+         id="stop3596" />
+      <stop
+         style="stop-color:#00aa44;stop-opacity:0;"
+         offset="1"
+         id="stop3598" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3594"
+       id="linearGradient3602"
+       x1="103.83929"
+       y1="1015.5229"
+       x2="103.83929"
+       y2="1053.0228"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.05735433,0,0,1,185.16255,0)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.9"
+     inkscape:cx="-24.586284"
+     inkscape:cy="-15.125632"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1036.3622)">
+    <path
+       style="fill:#b3b3b3;stroke:none"
+       d="m 1.632653,1043.7907 -0.612245,-6.7347 6.326531,7.347 4.489796,-7.5511 2.448979,8.3674 3.265306,-7.7551 3.877551,7.1428 4.285715,-7.3469 2.244898,7.7551 6.32653,-7.551 0.816327,7.7551 5.714285,-0.2041 -3.265306,-7.1428 8.775511,6.1224 1.836734,-7.1429 3.061225,7.9592 4.693877,-7.1428 1.22449,6.5306 5.714286,0.6122 2.448979,-7.551 3.265306,6.7347 4.489796,0 -1.020408,-6.1224 5.510204,6.5306 3.061225,-7.347 3.469388,8.1633 2.040816,-6.1225 2.857143,5.5102 2.857143,-7.551 3.061224,7.1429 2.857143,-6.5306 0.204082,8.7755 -95.918368,0.6122 -0.408163,-3.2653 z"
+       id="path2831" />
+    <g
+       id="g2830"
+       transform="matrix(1.0687023,0,0,0.92856006,-3.4351144,77.833585)">
+      <rect
+         ry="3.0765431"
+         rx="2.2835882"
+         y="1039.2194"
+         x="3.2142856"
+         height="10.285756"
+         width="93.571426"
+         id="rect2816"
+         style="fill:#ff4b00;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2818"
+         d="m 96.663368,1047.2997 c 0,0.8104 -0.89613,2.2055 -2.161242,2.2055 l -89.004252,0 c -1.2651079,0 -2.2097434,-1.5372 -2.2097434,-2.3476 28.3882504,-3.3691 59.6426744,-2.9143 93.3752374,0.1421 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+</svg>
